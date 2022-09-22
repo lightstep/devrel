@@ -1,0 +1,29 @@
+// Lightstep theme
+
+$green: #9BE2A6;
+$green-dark: #00893E;
+$gray: #566381;
+$white: #fff;
+$black: #121C21;
+$font-family: "Inter", sans-serif;
+
+$body-font-family: $font-family !default;
+$color-background: $green !default;
+$color-dot-accent: $black !default;
+$color-foreground: $black !default;
+$color-title: $white !default;
+$color-body-text: $black !default;
+$color-text-accent: $green-dark !default;
+$color-code: $gray !default;
+$color-nav-link: $white !default;
+$color-primary-link: $green !default;
+$color-border: $green;
+
+
+// Import sass partials (used in all themes)
+@import
+        "variables",
+        "base",
+        "components",
+        "utilities"
+;
